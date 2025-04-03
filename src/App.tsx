@@ -213,7 +213,7 @@ function App() {
                 className="bg-white rounded shadow p-3 flex justify-between items-start"
               >
                 <div>
-                  <div className="font-semibold text-base">{d.descricao}</div>
+<div className="font-semibold text-base">{d.descricao} – R$ {d.valor.toFixed(2)}</div>
                   <div className="text-sm text-gray-500">
                     {d.quemPagou}, {d.categoria}
                   </div>
